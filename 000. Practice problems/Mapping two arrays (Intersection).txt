@@ -11,7 +11,7 @@ Output ={2 3 3 4 5 6 6} ( same no of elemets unique?each number isjust counted o
 
 
 
--- Not optimised ... needs optimisation
+Not optimised ... needs optimisation
 
 #include <bits/stdc++.h> 
 vector<int> findArrayIntersection(vector<int> &arr1, int n, vector<int> &arr2, int m)
