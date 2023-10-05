@@ -1,0 +1,16 @@
+size = 2M+1 (always odd)
+only one unique value, rest all will be in pair!
+
+
+Logic used a^a = 0 and a^0 =1
+
+
+
+int findUnique(int *arr, int size)
+{
+    int a =0;
+    for (int i=0;i<size;i++){
+        a = a^arr[i];
+    }
+    return a;
+}
